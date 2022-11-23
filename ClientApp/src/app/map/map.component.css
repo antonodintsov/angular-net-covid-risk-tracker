@@ -10,14 +10,6 @@
   justify-content: center;
 }
 
-.map-container .controls {
-  position: relative
-}
-
-.map-container .controls .mat-mdc-form-field {
-  min-width: 250px;
-}
-
 .map-container #map {
   width: 100vw;
   display: flex;
@@ -26,6 +18,14 @@
   justify-content: center;
 }
 
-.map-container .legend {
+::ng-deep .map-container .controls {
+  position: relative
+}
+
+::ng-deep .map-container .controls .mat-mdc-form-field {
+  min-width: 250px;
+}
+
+::ng-deep .map-container .legend {
   margin-top: 16px;
 }
