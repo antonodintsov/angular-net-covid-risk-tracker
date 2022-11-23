@@ -1,0 +1,11 @@
+<div class="map-container">
+  <div class="controls" appearance="fill">
+    <app-map-controls (metricChanged)="onMetricChange($event)" [loading]="loading"></app-map-controls>
+  </div>
+
+  <div id="map"></div>
+
+  <div class="legend">
+    <app-map-legend (levelsChanged)="onLevelsChange($event)"></app-map-legend>
+  </div>
+</div>

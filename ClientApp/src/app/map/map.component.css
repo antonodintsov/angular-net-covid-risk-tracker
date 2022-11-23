@@ -1,0 +1,31 @@
+.map-container {
+  display: flex;
+  -moz-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  -o-flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -o-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.map-container .controls {
+  position: relative
+}
+
+.map-container .controls .mat-mdc-form-field {
+  min-width: 250px;
+}
+
+.map-container #map {
+  width: 100vw;
+  display: flex;
+  -o-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.map-container .legend {
+  margin-top: 16px;
+}

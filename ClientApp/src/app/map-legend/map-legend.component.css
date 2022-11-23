@@ -1,0 +1,20 @@
+::ng-deep .legend .text {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+::ng-deep .legend .color {
+  width: 26px;
+  height: 8px;
+  display: inline-block;
+}
+
+::ng-deep .legend .color.first {
+  -ms-border-radius: 6px 0 0 6px;
+  border-radius: 6px 0 0 6px;
+}
+
+::ng-deep.legend .color.last {
+  -ms-border-radius: 0 6px 6px 0;
+  border-radius: 0 6px 6px 0;
+}
